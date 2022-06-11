@@ -21,7 +21,7 @@ function ensureAntistars() {
             const clickHandler = document.createElement("div");
             slot.insertBefore(clickHandler, slot.childNodes.item(0));
             clickHandler.id = `clickhandler_${i}`;
-            clickHandler.style.height = '100%';
+            clickHandler.style.height = '70%';
             clickHandler.style.width = '50%';
             clickHandler.style.right = '0';
             clickHandler.style.position = 'absolute';
